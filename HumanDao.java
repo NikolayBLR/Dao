@@ -6,5 +6,6 @@ public interface HumanDao {
     void update(Human human);
     void delete(int age);
     List<Human> getAll();
+    Human [] getAll();
 }
 
